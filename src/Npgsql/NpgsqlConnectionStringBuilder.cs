@@ -1326,6 +1326,9 @@ namespace Npgsql
         /// The server is an Amazon Redshift instance.
         /// </summary>
         Redshift,
+        /// <summary>
+        /// The server is an CockroachDB instance.
+        CockroachDB
     }
 
     /// <summary>
